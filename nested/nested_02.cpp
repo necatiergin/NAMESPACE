@@ -25,5 +25,6 @@ namespace Enc {
 
 int main()
 {
+	Enc::foo(0);
 	Enc::Nested::func();
 }
