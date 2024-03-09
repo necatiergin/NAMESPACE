@@ -10,7 +10,6 @@ namespace nec {
 	void foo();
 }
 
-
 int main()
 {
 	nec::x = 25;
