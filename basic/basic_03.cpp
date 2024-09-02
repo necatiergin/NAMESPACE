@@ -1,6 +1,4 @@
-
-
-namespace Nec {
+namespace nec {
 	class C {
 		friend void f1();
 		friend void f2(const C&);
@@ -10,8 +8,8 @@ namespace Nec {
 
 int main()
 {
-	Nec::C cx;
+	nec::C cx;
 
-	f1(); //invalid
-	f2(cx);
+	//f1(); //invalid
+	f2(cx);	//	ADL
 }
