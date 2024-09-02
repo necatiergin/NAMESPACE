@@ -1,13 +1,14 @@
 namespace Nec {
 
 	void foo();
-	
-	void bar() {
+
+	void bar() 
+	{
 		foo();
-		baz();		//invalid
-		Nec::baz();   //invalid
-		x++;        //invalid
-		Nec::x++;     //invalid
+		//baz();		//invalid
+		//Nec::baz();   //invalid
+		//x++;        //invalid
+		//Nec::x++;     //invalid
 	}
 
 	void baz();
