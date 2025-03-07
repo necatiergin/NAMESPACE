@@ -1,9 +1,8 @@
 //C++17
 
 namespace A::B::C {
-	int c{1};
+	int c{ 1 };
 }
-
 
 namespace A::B {
 	int b{ 2 };
@@ -15,7 +14,6 @@ namespace A {
 }
 
 #include <iostream>
-
 
 int main()
 {
