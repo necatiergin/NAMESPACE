@@ -4,7 +4,7 @@ namespace nec
 {
 	void foo(const char* str)
 	{
-		std::cout << "nec::foo const char *" << '\n';
+		std::cout << "nec::foo const char *\n";
 	}
 
 	namespace erg
@@ -16,9 +16,9 @@ namespace nec
 
 		namespace asl
 		{
-			void foo(int nec)
+			void foo(int)
 			{
-				std::cout << "nec::erg::asl::foo int" << '\n';
+				std::cout << "nec::erg::asl::foo(int)\n";
 			}
 
 			void bar()
