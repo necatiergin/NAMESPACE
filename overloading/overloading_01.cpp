@@ -26,5 +26,6 @@ using namespace Ali;
 
 int main()
 {
-	::func(123);
+	func(123);
+	func(3.4);
 }
