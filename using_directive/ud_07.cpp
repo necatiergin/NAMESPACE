@@ -1,15 +1,12 @@
 namespace nec
 {
-	int a;
+	int x;
 	//...
-
 }
 
 namespace erg
 {
 	using namespace nec;
-
-	int b;
 	//...
 }
 
@@ -17,7 +14,7 @@ using namespace erg;
 
 int main()
 {
-	a = 10;			// valid
+	x = 10;			// valid
 }
 
 // "using namespace erg" direktifi ile erg isim alanı içerisindeki isimler global isim alanında görülür olur
