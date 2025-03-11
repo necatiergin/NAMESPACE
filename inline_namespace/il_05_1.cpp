@@ -1,6 +1,6 @@
 namespace nec {
 	int x = 10;
-	namespace erg{
+	namespace erg {
 		int x = 5;
 	}
 	using namespace erg;
@@ -10,5 +10,5 @@ namespace nec {
 
 int main()
 {
-	std::cout << nec::x << "\n";
+	std::cout << nec::x << '\n';
 }
