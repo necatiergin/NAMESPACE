@@ -1,3 +1,5 @@
+// using namespace directive has a scope 
+
 namespace nec {
 	void foo();
 	int ival{};
@@ -9,7 +11,8 @@ namespace nec {
 
 void f1()
 {
-	using namespace nec;
+	using namespace nec; // in bovk scope
+
 	foo();
 	++ival;
 	A::bar();
