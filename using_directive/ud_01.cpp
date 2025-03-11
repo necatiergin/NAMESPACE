@@ -1,3 +1,4 @@
+// using namespace directive has a scope 
 namespace nec {
 	void foo();
 	int ival{};
@@ -7,7 +8,7 @@ namespace nec {
 	
 }
 
-using namespace nec;
+using namespace nec; // in global namespace
 
 void f1()
 {
