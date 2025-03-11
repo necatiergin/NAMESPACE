@@ -13,4 +13,4 @@ namespace asl {
 }
 
 
-using namespace nec, erg, asl;	   //error
+using namespace nec, erg, asl;	   //comma separated list is not allowed
