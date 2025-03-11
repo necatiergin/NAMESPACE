@@ -1,3 +1,5 @@
+// using namespace directive for nested namespace
+
 namespace nec {
 	namespace erg {
 		namespace pro {
