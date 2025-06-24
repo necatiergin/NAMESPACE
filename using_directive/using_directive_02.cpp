@@ -11,7 +11,7 @@ namespace nec {
 
 void f1()
 {
-	using namespace nec; // in bovk scope
+	using namespace nec; // in block scope
 
 	foo();
 	++ival;
