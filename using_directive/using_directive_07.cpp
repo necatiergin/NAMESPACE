@@ -15,7 +15,7 @@ using namespace erg;
 
 int main()
 {
-	//a = 10;	// error
+	//a = 10;	// error - ambiguity
 	nec::a = 20;
 	erg::a = 30;
 	b = 20;		// ok
