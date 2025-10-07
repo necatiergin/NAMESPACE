@@ -10,5 +10,5 @@ namespace nec {
 
 int main()
 {
-	std::cout << nec::x << '\n';
+	std::cout << nec::x << '\n'; //10
 }
