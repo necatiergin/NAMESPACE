@@ -1,13 +1,15 @@
 namespace A {
     inline namespace B {
-	inline namespace C {
-	    int x = 10;
-	}
+			inline namespace C {
+	    		int x = 10;
+			}
     }
-    inline namespace D {
-	int y = 20;
+    
+	inline namespace D {
+		int y = 20;
     }
 }
+
 int main()
 {
     A::x = 1;
