@@ -13,5 +13,5 @@ int main()
 
 	using namespace erg;
 
-	std::cout << "x = " << x << '\n';	//name hiding
+	std::cout << "x = " << x << '\n';	//100 - name hiding
 }
