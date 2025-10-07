@@ -1,4 +1,5 @@
 // using namespace directive has a scope 
+
 namespace nec {
 	void foo();
 	int ival{};
