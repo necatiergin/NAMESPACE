@@ -9,5 +9,5 @@ namespace nec {
 
 int main()
 {
-	std::cout << nec::x << "\n"; //error (ambiguity)
+	std::cout << nec::x << '\n'; //error (ambiguity)
 }
